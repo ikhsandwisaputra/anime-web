@@ -11,10 +11,10 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename="/anime-web">
         <Navbar />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route exact path='/anime-web' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>

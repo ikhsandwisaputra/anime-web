@@ -1,7 +1,7 @@
 {
   "name": "my-firt-react-tailwind",
   "hompepage" : "https://ikhsandwisaputra.github.io/anime-web/",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
