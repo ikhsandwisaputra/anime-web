@@ -13,11 +13,10 @@ function App() {
     <div>
       <Router>
         <Navbar />
-        <Home />
         <Routes>
-          <Route path='/anime-web/' element={<Home />} />
-          <Route path='/anime-web/about' element={<About />} />
-          <Route path='/anime-web/contact' element={<Contact />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
       </Router>
     </div>
